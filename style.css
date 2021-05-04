@@ -1,0 +1,82 @@
+.row.about-us {
+  font-size: 17px;
+  color: black;
+}
+
+.orgtext {
+  margin-top:40px;
+  margin-left: 60px;
+  margin-right:60px;
+  margin-bottom:60px;
+}
+
+.orgtext p{
+  font-size: 20px;
+  line-height: 2;
+}
+
+.orgtext span{
+  font-weight: bold;
+}
+
+.orgtext ul{
+  font-size: 20px;
+  line-height:2;
+}
+
+#j1 {
+  text-align: center;
+}
+
+#j2 {
+  text-align: center;
+  font-family: roboto;
+}
+
+#j3 {
+  text-align: center;
+  margin: 50px;
+  font-family: oswald;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.medtext p{
+  line-height: 2;
+}
+
+#part1 {
+  text-align: center;
+}
+
+#Sleepy {
+  text-align: center;
+}
+
+#benefits {
+  margin: 20px;
+  font-family: roboto;
+}
+
+.benefits1 {
+  margin: 2px;
+  font-family: oswald;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.benefits2 {
+  text-align: left;
+  margin: 2px;
+  backgroound-position: 100%;
+  font-family: oswald;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#TIPS {
+  text-align: left;
+  margin: 20px;
+  font-family: roboto;
+  font-size: 28px;
+}
