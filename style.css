@@ -22,6 +22,7 @@
 .orgtext ul{
   font-size: 20px;
   line-height:2;
+  
 }
 
 #j1 {
@@ -68,7 +69,7 @@
 .benefits2 {
   text-align: left;
   margin: 2px;
-  backgroound-position: 100%;
+  background-position: 100%;
   font-family: oswald;
   font-size: 18px;
   font-weight: bold;
@@ -79,4 +80,244 @@
   margin: 20px;
   font-family: roboto;
   font-size: 28px;
+}
+
+#myNavbar {
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: arial;
+  text-align: center;
+  color: blue;
+}
+
+#Diett {
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+#para {
+  text-align: center;
+  font-family: roboto;
+  font-size: 25px;
+}
+
+#WhatisDiet {
+  text-align: center;
+  font-family: roboto;
+  font-size: 35px;
+}
+
+#navlogo{
+  width:45px;
+  height:45px;
+  margin: auto;
+}
+
+#Why {
+  text-align: center;
+  font-family: roboto;
+  font-size: 35px;
+}
+
+#WHy1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: roboto;
+}
+
+#Part4 {
+  text-align: center;
+  font-size: 35px;
+  font-family: roboto;
+}
+
+#Part5 {
+  text-align: center;
+  font-size: 25px;
+  font-family: roboto;
+}
+
+.logo{
+  width:30%;
+  margin-left: 150px;
+  margin-top: 150px;
+  margin-right: 170px;
+}
+
+body {
+  font-family: arial;
+}
+
+li a{
+  text-decoration:none;
+}
+
+.footer {
+  background-color: #ededed;
+}
+
+.col {
+  line-height: 50px;
+  font-family:arial;
+}
+
+.col a {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+
+.col span {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#col1 {  display: flex;
+}
+
+#col2 {
+  margin-top: 25px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+#findus {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.smlogo {
+  width: 5%;
+  height: auto;
+  margin-right: 2%;
+}
+
+#button {
+  width: 50px;
+  height: 55px;
+}
+
+#searchbar{
+  width: 300px;
+  height: 55px;
+  font-size: 16px;
+}
+
+#butt0n{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+#Whyyou {
+  margin: 20px;
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.reasons {
+  text-align: left;
+  margin: 2px;
+  background-position: 100%;
+  font-family: oswald;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.advicetext {
+  margin-top:40px;
+  margin-left:60px;
+  margin-right:60px;
+  margin-bottom:60px;
+}
+
+.advicetext img {
+  margin-left:20px;
+}
+
+.advicetext p{
+  font-size: 20px;
+  line-height: 2;
+}
+
+.advicetext span{
+  font-weight: bold;
+}
+
+.advicetext ul{
+  font-size: 20px;
+  line-height:2;
+}
+
+.Whatyou {
+  margin: 2px;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: bold;
+ 
+}
+
+#howyou {
+  text-align: left;
+  margin: 20px;
+  font-family: roboto;
+  font-weight: bold;
+
+}
+
+.footer ul{
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.advicetext img{
+  margin-top: 20px;
+  display: flex;
+}
+
+.advicetext textarea{
+  display: flex;
+  width: 100%;
+  height: 350px;
+  margin: 20px;
+  font-size: 20px;
+  font-align: top;
+}
+
+.advicetext button{
+  margin-left: 80%;
+  margin-bottom: 20px;
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+}
+
+#adtxt{
+  margin-left: -50px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.comanswer {
+  margin-bottom: 40px;
+}
+
+.comresponse{
+  font-weight: bold;
+}
+
+label{
+  font-size: 18px;
+  margin-left: 15px;
 }

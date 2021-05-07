@@ -14,7 +14,8 @@
     </style>
 </head>
 <body>
-  
+  <div id="top">
+  </div>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -23,12 +24,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"></a>
-      <img src="https://cdn.glitch.com/3be0a838-ecb9-4cd7-be6c-5686fa1c80c9%2Ftab%20logo.PNG?v=1619123622058" width="45px" height="45px">
+      <a class="navbar-brand" href="#"><img id="navlogo" src="https://cdn.glitch.com/3be0a838-ecb9-4cd7-be6c-5686fa1c80c9%2Ftab%20logo.PNG?v=1619123622058"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Home</a></li>
+        <li><a href="./">Home</a></li>
         <li><a href="./meditation.html">Meditation</a></li>
         <li><a href="./diet.html">Diet</a></li>
         <li><a href="./journaling.html">Journaling</a></li>
@@ -36,13 +36,90 @@
         <li><a href="./hobbies.html">Hobbies</a></li>
         <li><a href="./reading.html">Reading</a></li>
         <li><a href="./organization.html">Organization</a></li>
-        <li><a href="./advice.html">Advice</a></li>
+        <li class="active"><a href="./advice.html">Advice</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
-</nav>
+  </nav>
+  <div class="advicetext">
+  <h1>
+    Advice
+  </h1>
+    <div class="row">
+    <div class="col-sm-6">
+      <img src="https://cdn.glitch.com/3be0a838-ecb9-4cd7-be6c-5686fa1c80c9%2FIMG_0185.jpg?v=1619568475674" alt="Advice" width="450px;">
+      </div>
+      <div class="col-sm-6" id="adtxt">
+      <span><h2>How it works</h2></span>
+    <span>Type in the text box below anything you need advice on and press submit! One of our admin will get back to you as soon as possible!
+    Everything shared will be kept anonymous! Check the box if you would like to be emailed when you get an answer! We will send a follow up email if you would like to 
+    share the answer given to you! It will be with the others on the bottom of this page, everything anonymous of course!</span>
+      </div>
+      </div>
+      <form action="/action_page.php">
+        <center><textarea placeholder="type here!"></textarea></center>
+        <input type="checkbox" id="emailthem">
+        <label for="emailthem"> I would like to be emailed once my problem is given advice. </label>
+      <button type="submit" id="txt">submit!</button>
+    </form>
+    <div class="comanswer">
+    <h2>
+      Community Answers
+    </h2>
+      </div>
+    <div class="comresponse">
+    <p>
+      "I have a big test coming up and I don't know what to do. I don't have motivation to study for it. I know that if I don't study, I will fail, but I don't think I'm 
+      in the right headspace for studying right now." - Anonymous
+    </p>
+      </div>
+      <p>
+        I see you might be a bit stressed over that right now. It's ok to be stressed over a test. It's normal. I would say right now, do something you know will help you destress. 
+        It could be meditating, doing a hobby, anything to help get your mind clear. Try to go back to studying once your mind is clear because forcing yourself to study when you're 
+        not in the right mindset might be as good as if you didn't study at all. If your teacher allows it, maybe try emailing them and let them know about your situation. Try asking 
+        if you could take it later. It doesn't hurt to try! You got this!
+    </p>
+  </div>
+   <div class="footer">
+     <div id="row">
+       <div id="col1" class="col">
+    <img class="logo" src="https://cdn.glitch.com/a7d7c7ac-400a-4d8f-9dba-b15f2f8122c4%2Ftab%20logo.PNG?v=1620087945359" alt="onemindfulself logo">
+  </div>
+  <div id="col2" class="col">
+  <div class="about">
+    <ul>
+      <li><span>About</span></li>
+      <li><a href="#">onemindfulself</a></li>
+      <li><a href="#">Members</a></li>
+      <li><a href="#">FAQs</a></li>
+      <li><a href="#">Feedback</a></li>
+      <li><a href="#">Support Us</a></li>
+    </ul>
+  </div>
+    </div>
+      <div id="findus" class="col">
+    <ul>
+      <li><span>Find Us!</span></li>
+     <a href="https://www.instagram.com/onemindfulself/"><li><img class="smlogo" src="https://cdn.glitch.com/a7d7c7ac-400a-4d8f-9dba-b15f2f8122c4%2Finstagram.png?v=1620175970209" alt="Instagram">@onemindfulself</li></a> 
+     <a href="https://twitter.com/onemindfulself"><li><img class="smlogo" src="https://cdn.glitch.com/a7d7c7ac-400a-4d8f-9dba-b15f2f8122c4%2Ftwitter.png?v=1620175973190" alt="Twitter">@onemindfulself</li></a>
+     <a href="#"><li><img class="smlogo" src="https://cdn.glitch.com/a7d7c7ac-400a-4d8f-9dba-b15f2f8122c4%2Fgmail.ico?v=1620175975711" alt="Gmail">onemindfulself@gmail.com</li></a>
+      <li><span>Join our weekly newsletter for updates!</span></li>
+     <li><div class="search-container">
+    <form action="/action_page.php">
+            <div class="join"></div>
+      <input id="searchbar" type="text" name="search">
+      <a href="#join"><button type="submit" id="button">Join!</button></a>
+    </form>
+      </div></li>
+      </ul>
+  </div>
+   </div>
+     <div class="totop">
+     <a href="#top"><center><button type="submit" id="butt0n">to the top!</button></center></a>
+   </div>
+    </div>
   </body>
 </html>
